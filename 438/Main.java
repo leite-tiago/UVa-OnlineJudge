@@ -17,9 +17,9 @@ public class Main {
             double d = y1 - y3;
             double e = ((x1 * x1) - (x2 * x2) + (y1 * y1) - (y2 * y2)) / 2;
             double f = ((x1 * x1) - (x3 * x3) + (y1 * y1) - (y3 * y3)) / 2;
-            double x = (e * d - b * f) / (a * d - b * c);
-            double y = (a * f - e * c) / (a * d - b * c);
-            double r = Math.sqrt((x - x1) * (x - x1) + (y - y1) * (y - y1));
+            double h = (e * d - b * f) / (a * d - b * c);
+            double k = (a * f - e * c) / (a * d - b * c);
+            double r = Math.sqrt((x1 - h) * (x1 - h) + (y1 - k) * (y1 - k));
 
             System.out.printf("%.2f\n", 2 * Math.PI * r);
         }
