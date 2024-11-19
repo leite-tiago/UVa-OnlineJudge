@@ -1,2 +1,2 @@
 # UVa-OnlineJudge
- My solutions for roblems from: https://onlinejudge.org/index.php
+ My solutions for problems from: https://onlinejudge.org/index.php
